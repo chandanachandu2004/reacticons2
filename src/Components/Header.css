@@ -1,0 +1,13 @@
+.para{
+    text-align: center;
+    background-image:linear-gradient(yellow,red);
+    padding:20px;
+    box-shadow: 3px 3px;
+    color:black;
+}
+button{
+    background-color:red;
+}
+button:hover{
+    background-color: green;
+}
