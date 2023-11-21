@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "hello",
+      "complted": false,
+      "id": 2
+    },
+    {
+      "title": "ufffy",
+      "complted": false,
+      "id": 3
+    },
+    {
+      "title": "bye",
+      "complted": false,
+      "id": 4
+    },
+    {
+      "title": "hyeeee",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "hello mamatha",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "hii mammi",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "",
+      "imageUrl": "",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "title": "butterfly",
+      "imageUrl": "https://www.bing.com/images/search?view=detailV2&ccid=2Onugy95&id=E7E497443CFA204D00E13B275320CEF2CF0AB1A6&thid=OIP.2Onugy95UgfPhg8zTINsLwHaFj&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d8e9ee832f795207cf860f334c836c2f%3frik%3dprEKz%252fLOIFMnOw%26riu%3dhttp%253a%252f%252fwallpapercave.com%252fwp%252fL176PKB.jpg%26ehk%3dEFwqrpZNFIsWH3KUnoQol46uiGy%252fY0%252bn3%252bv%252fHAyUAUc%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1600&q=butterfly+wallpaper&simid=608038825615885904&FORM=IRPRST&ck=70013B1C11C88DE5A627A3BC14C8EA20&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "title": "butterfly",
+      "imageUrl": "https://th.bing.com/th/id/R.d8e9ee832f795207cf860f334c836c2f?rik=prEKz%2fLOIFMnOw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fL176PKB.jpg&ehk=EFwqrpZNFIsWH3KUnoQol46uiGy%2fY0%2bn3%2bv%2fHAyUAUc%3d&risl=&pid=ImgRaw&r=0",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "title": "",
+      "imageUrl": "",
+      "completed": false,
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

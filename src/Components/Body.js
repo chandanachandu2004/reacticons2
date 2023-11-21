@@ -12,9 +12,9 @@ const Body = () => {
     }
 
     const [cartoon, setcartoon] = useState([
-        { cartoon: <b>'Tom and Jerry' </b>},
-        { cartoon: 'Motu Patlu' },
-        {cartoon:'Doremon'}
+        { cartoon: <i>'Tom and Jerry' </i>},
+        { cartoon: <i>'Motu Patlu'</i> },
+        {cartoon:<i>'Doremon'</i>}
     ])
     const [index, setIndex] = useState(0)  // 1
     function change() {  //0+1%3
@@ -32,7 +32,8 @@ const Body = () => {
         <div>
             <div>
                 <center>
-               <center><img src={Image} alt="images" height={200} width={200}/></center>
+               <center>< img src={Image} onTouchMove={'left'}alt="images" height={300} width={300}/></center>
+    
                 <p><b><u>river</u></b></p> <br/>
                 <p><b>likes: {likes}</b></p>
                 {/* destructuring */}

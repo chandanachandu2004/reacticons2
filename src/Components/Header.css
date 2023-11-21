@@ -1,4 +1,4 @@
-.para{
+/* .para{
     text-align: center;
     background-image:linear-gradient(yellow,red);
     padding:20px;
@@ -10,4 +10,13 @@ button{
 }
 button:hover{
     background-color: green;
+}
+
+div img{
+    border-radius: 200px;    
+} */
+
+
+div h2{
+    background-color:lightblue;
 }
