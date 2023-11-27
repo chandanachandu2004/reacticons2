@@ -49,11 +49,12 @@
 // }
 
 // export default Footer
-import React from 'react';
+// import React from 'react';
+
+
 import IconButton from '@mui/material/IconButton';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
   const footerStyle = {
@@ -74,9 +75,6 @@ const Footer = () => {
       </IconButton>
       <IconButton color="inherit" aria-label="Twitter" href="https://www.twitter.com">
         <TwitterIcon style={iconStyle} />
-        </IconButton>
-        <IconButton color="inherit" aria-label="Instagram" href="https://www.instagram.com">
-        <InstagramIcon style={iconStyle} />
       </IconButton>
     </div>
   );
